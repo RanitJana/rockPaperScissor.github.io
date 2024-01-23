@@ -1,0 +1,16 @@
+@media only screen and (max-width:554px) {
+    .game {
+        zoom: 0.9;
+    }
+}
+
+@media only screen and (max-width:448px) {
+    .game {
+        zoom: 0.8;
+        min-width: 0px;
+    }
+
+    .game .option {
+        flex-direction: column;
+    }
+}
